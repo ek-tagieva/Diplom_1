@@ -20,10 +20,8 @@ public class BurgerTest {
 
     @Mock
     private Bun bun;
-
     @Mock
     private Ingredient ingredient;
-
     @Mock
     private Ingredient ingredient2;
     @Mock
@@ -98,5 +96,4 @@ public class BurgerTest {
         assertEquals(expectedReceipt, burger.getReceipt());
 
     }
-
 }
